@@ -1,0 +1,207 @@
+
+/* scrol-menu */
+html{
+    scroll-behavior: smooth;
+}
+#scrol-menu{
+    position: fixed;
+    color: #7752e6b6;
+    z-index: 9999;
+    font-size: 50px;
+    top:70%;
+
+    right: 5%;
+}
+.scrol-1{
+    opacity: 1;
+   
+}
+.scrol-2{
+       opacity: 0; 
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+body {
+    background-image: linear-gradient(45deg, rgb(32, 29, 29) ,rgb(42, 32, 32) ,rgb(22, 7, 47) );
+}
+/*     CONTENT QISMI */
+.tex {
+    word-spacing: 7px;
+    margin-top: 200px;
+    margin-left: 17%;
+}
+.tex1 {
+    word-spacing: 7px;
+    margin-top: 100px;
+}
+.menu-logo{
+    width: 250px;
+    height: 100px;
+    display: flex;
+    margin-left: 20px;
+    transform: translateY(-10px);
+    
+    
+}
+.logo-image{
+    width: 140px;
+}
+.malumot-qism{
+    letter-spacing: 2px;
+    line-height: 25px;
+    word-spacing: 8px;
+   
+}
+
+.cards{
+    border-radius: 15px;
+    background-color: rgb(181, 211, 231);
+
+}.xxx{
+    margin-bottom: 50px;
+}
+
+ 
+
+.size {
+    font-size: 25px;
+}
+.ins{
+    font-weight: bold;
+    font-size: 40px;
+   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.text-center-front{
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+.text-center-front h1{
+    font-size: 50px;
+    text-align: center;
+}
+/* media query 575px=>800px text */
+
+/* media query 575px=>800px text */
+@media (min-width:574px) and (max-width:800px){
+    .text-center-front h1{
+      font-size: 30px;
+  }
+  .hover:hover {
+      transition: 1s;
+      transform: scale(1) !important;
+  }
+  }
+  /* media query 0=> 575px text */
+  @media (min-width:0) and (max-width:573px) {
+    .text-center-front h1{
+      font-size: 25px;
+  }
+  .hover:hover {
+      transition: 0s;
+      transform: scale(1) !important;
+  }
+  
+  }
+                                     /*----------- MY STYLE---------- */
+  .text-style {
+      color: black;
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  }
+  .text-style-2 {
+      background: #2e2c2c;
+      color: #022235;
+  }
+  .hover {
+      transition: all 0.3s linear;
+  }
+  .hover:hover {
+    
+      
+      transform: scale(.9) ;
+      cursor: default;
+  }
+  .son {
+      font-size: 25px;
+  }
+  .son2  {
+      font-size: 19px;
+  }
+  .header {
+      background-image: linear-gradient(#374892, #3D58EF);
+      color: #fff;
+  }
+  .card-hover {
+      transition: all 1s cubic-bezier(0.65, 0.04, 0.6, 1.21);
+  }
+  .card-hover:hover {
+      transition: 0.3s;
+      box-shadow: 0 0 15px 10px #00000066;
+  }
+                                  /*----------- MY STYLE---------- */
+
+       
+       
+       
+       
+       
+                                  /* test- qissmi */
+
+
+    .d-f{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-wrap: wrap;
+        background-color: #1C2B26;
+    } 
+    .text-test{
+        font-size: 30px;
+    }
+                                  
+
+  .input{
+     border: 1px solid rgb(31, 29, 29) !important;
+     margin: 4px 7px;
+     padding: 5px;
+     border-radius: 3px;
+     background-color: rgba(160, 156, 156, 0.37);
+     
+  }   
+                          
+  .box{
+      display: flex;
+      justify-content: space-around;
+  }
+  .card-header{
+      padding:1rem 0;
+      margin: 10px 0;
+     
+      border-radius: 5px;
+  }
+  .d-flex{
+      justify-content: center;
+  }
+ @media (min-width:417px) and (max-width:610px) {
+     .card-header{
+         font-size: 12px !important;
+     }
+     .text-test{
+        font-size: 25px;
+    }
+     
+ }
+ @media (min-width:0) and (max-width:417px) {
+    .card-header{
+        font-size: 9px !important;
+    }
+    .text-test{
+        font-size: 20px;
+    }
+    
+}

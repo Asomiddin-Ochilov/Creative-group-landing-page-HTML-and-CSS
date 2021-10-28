@@ -1,0 +1,504 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+/*-----------------body---------*/
+.bg-site{
+    background-color: #0A0420;
+}
+body{
+    background-color: #0A0420;
+}
+.gavda{
+    margin-top: 20px;
+}
+.shior{
+    color: gold;
+    animation: shior 1s linear;
+}
+.shior-2{
+    animation: shior-2 1s linear;
+}
+.name1{
+    box-sizing: border-box;
+    display: flex;
+    box-sizing: border-box;
+    justify-content: center;
+    justify-content: space-around;
+    margin-top: -50px;
+    margin-bottom: 100px;
+}
+.mt{
+    margin-top: 4rem;
+}
+@media only screen and (max-width: 600px) {
+    .name1{
+        display: flex;
+        flex-wrap: wrap;
+       margin-top: -50px;
+    } 
+    .shior{
+        font-size: 38px !important;
+    }
+    
+    .kard:hover{
+        transform: scale(1) !important;
+       
+      
+    }
+    .kard:hover img{
+      transform: scale(1) !important;
+       
+       box-shadow: 0 0 2px 5px rgb(243, 241, 241);
+    }
+
+}
+.kard{
+  width: 350px;
+  height: 330px;
+  border: none;
+  background: transparent;
+  text-align: center;
+   box-sizing: border-box;
+   transition: 0.4s linear;
+   cursor: pointer;
+}
+.kard:hover{
+    transform:translateY(-10px) scale(1.1);
+  
+}
+.kard:hover img{
+  transform: scale(1.1);
+   
+   box-shadow: 0 0 2px 5px rgb(243, 241, 241);
+}
+
+.kard img{ 
+    margin-top: 40px;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+   
+}
+.kard h4{
+    text-align: center;
+     margin-top: 30px;
+     font-size: 28px;
+     font-family: sans-serif;
+     font-weight:700;
+     color: rgb(233, 233, 233);
+}
+
+.kard1{
+    opacity: 1;
+    border-radius: 30px 0 30px 0;
+    animation: ilxom 1.5s  ease-in-out  ;
+}
+@keyframes ilxom{
+   0%{
+      margin-left: -500px;
+      opacity: 0;
+    }
+    75%{
+        opacity: 0.5;
+    }
+   100%{
+       
+       opacity: 1;
+   }
+}  
+.kard2{
+    animation: asom 2.5s 1.5s ease-in;
+    opacity: 0;
+    animation-fill-mode: forwards;
+    border-radius: 5px;
+}
+@keyframes asom{
+  0%{
+    
+  }
+
+ 
+  100%{
+    
+      opacity: 1;
+  }
+}
+
+.kard3{
+    border-radius: 0 30px 0 30px; 
+    animation: ali 1.5s ease-in-out  ;
+
+}
+@keyframes ali{
+    0%{
+       margin-right: -500px;
+       opacity: 0;
+     }
+    
+     75%{
+         opacity: 0.5;
+     }
+    100%{
+        
+        opacity: 1;
+    }
+ }  
+          /* Creative Group asoschilari. tugadi*/
+
+
+                     /* Creative group asoschilari haqida ma'lumotlar bolimi */
+ 
+
+
+.d-ff{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.d-ff .card{
+    background-color: white;
+    width: 90%;
+    padding: 0;
+    margin: 10px 0;
+}
+
+.d-p{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+.progress{
+width: 85%;
+}
+.bg-html{
+    background-color: #f37a4e;
+}
+.bg-css{
+    background-color: #b80866;
+}
+.bg-js{
+    background-color: #ffd900;
+}
+.bg-adobe{
+    background-color: #1da4f3;
+}
+
+.shaxs-link{
+    display: flex;
+}
+.shaxs-link i{
+    color: black;
+    padding: 10px;
+    font-size: 40px !important;
+}
+.shaxs-link:nth-child(1) i:hover{
+ transition: 0s;
+ box-shadow: 0 0 20px #0e59ee;
+ color: #0e59ee;
+ background-color: white;
+}
+.shaxs-link:nth-child(2) i:hover{
+    
+    transition: 0s;
+    box-shadow: 0 0 20px #f60777;
+    color: #f60777;
+    background-color: white;
+   }
+   .shaxs-link:nth-child(3) i:hover{
+    
+    transition: 0s;
+    box-shadow: 0 0 20px #08bff7;
+    color: #08bff7;
+    background-color: white;
+   }
+
+   .card-flex{
+       border: 1px solid red !important;
+       display: flex !important;
+       justify-content: space-around;
+   }
+.malumot{
+   
+    width: 95%;
+    
+    margin-top: 100px;
+}
+.malumot h4{
+    font-family: sans-serif;
+    font-weight:500;
+    color: rgb(233, 233, 233);
+    letter-spacing: 5px;
+    animation: malum 1.5s 1.2s ;
+    opacity: 0;
+    animation-fill-mode: forwards;
+    
+}
+@keyframes malum{
+    0%{
+        
+    }
+    100%{
+        opacity: 1;
+
+    }
+}
+
+@keyframes shior {
+    0% {
+        
+    }
+    75% {
+        opacity: 1;
+        transform: translateY(80px);
+    }
+    100%{
+        transform: translateY(-10px);
+         opacity: 1;
+    }
+}
+@keyframes shior-2 {
+    0% {
+        
+    }
+    75% {
+        opacity: 1;
+    }
+    100%{
+        opacity: 1;
+        transform: translateY(-40px);
+    }
+} 
+
+
+
+                              /*  carddagi malumotlar stillari */
+.ism{
+    color:rgb(0, 0, 0);
+    font-weight: 600;
+}
+.ismAsom{
+    color:rgb(255, 255, 255);
+    font-weight: 600;
+}
+.front{
+    color: rgb(0, 0, 0);
+    font-weight:700;
+    font-size: 30px;
+}
+.frontAsom{
+    color: rgb(255, 255, 255);
+    font-weight:700;
+    font-size: 30px;
+}
+
+
+
+
+.person{
+    font-size: 26px;
+    font-weight: 700;
+}
+
+.edu{
+    color:rgb(0, 164, 170);
+   font-size: 28px;
+    
+    width: 180px;
+align-items:center;
+    margin: 0 auto;
+} 
+.ed{
+   
+    align-items: center;
+    margin: 1rem auto;
+   
+}
+.circle{
+    color: rgb(0, 164, 170);
+  font-size: 18px;
+  margin-left: 20px;
+}
+.person{
+    color: rgb(0, 164, 170);
+    margin-left: 30px;
+}
+
+.top{
+    margin-top: -25px;
+}
+.html{
+    width: 40px !important;
+    height: 40px;
+    
+}
+
+.progresAsom{
+    background-color: rgb(42, 245, 245);
+    color: black;
+}
+.prog{
+    margin-top: 10px;
+    margin-left: -30px;
+}
+.row2{
+    margin: 5px;
+}
+
+
+
+
+/*   2-chi qism about */
+.car{
+    background-color:  rgb(26, 22, 36) !important;
+    height: 700px;
+}
+
+.baland{
+  margin-bottom: 50px;
+}
+.posit{
+    margin-top: 100px;
+}
+.orta{
+    background-color: rgb(26, 22, 36);
+}
+.asom{
+    width: 400px;
+    height: 400px;
+    margin-top:25px !important;
+}
+.fotoAli{
+    width: 400px;
+    height: 400px;
+    margin-top: 80px;
+}
+.ikonka i{
+    margin: 0 1rem;
+}
+
+
+/* svg */
+.svgcolor-light {
+    bottom: 104px;
+  }
+  .svgcolor-light > path {
+    fill: #0A0420;
+    stroke: white;
+    stroke-width: 0;
+  }
+.svg > path {
+   fill:  #0A0420;
+   
+}
+.svg-color{
+    margin-top: -4px;
+    stroke: white;
+    fill: white;
+    color: white;
+}
+.svg-3{
+    margin-top: -2px;
+    stroke: #0A0420;
+    fill: #0A0420;
+    color: #0A0420;
+    margin-left:40%;
+}
+.img-resiz{
+    height: 400px;
+    object-fit: cover;
+    object-position: center center;
+
+}
+.svv path{
+    fill:  rgb(255, 255, 255);
+   stroke: #ffffff;
+   stroke-width: 0;
+ 
+}
+
+
+/* ---------0-0-0-0-0-0-0-0     Media QUERY    -0-0-0-0-0-0-0--------   */
+
+   @media (min-width:575px) and (max-width:600px) {
+       
+    .ism{
+        font-size: 23px;
+    }
+    .front{
+        font-size: 28px;
+    }
+    .edu{
+        font-size: 23px;
+    }
+    .person{
+        font-size: 23px;
+    }
+    .shaxs-link i{
+        font-size: 33px !important;
+    }
+    .svg-3{
+        stroke: #0A0420;
+        fill: #0A0420;
+        color: #0A0420;
+        width:300px !important;
+        height: 50px !important;
+        margin: -1px auto;
+        
+        
+    }
+    .svg-color{
+        width:300px !important;
+        height: 50px !important;
+        margin: -3px auto;
+        stroke: white;
+        fill: white;
+        color: white;
+    }
+   }
+   @media (min-width:0) and (max-width:500px) {
+    .svg-3{
+       display: none;
+        
+        
+    }
+    .svg-color{
+        display: none;
+    }
+
+       
+   }
+   @media (min-width:0) and (max-width:577px) {
+  
+    .svg-3{
+        display: none;
+         
+         
+     }
+     .svg-color{
+         display: none;
+     }
+    .ism{
+        font-size: 19px;
+    }
+    .front{
+        font-size: 23px;
+    }
+    .edu{
+        font-size: 19px;
+    }
+    .person{
+        font-size: 19px;
+    }
+    .shaxs-link i{
+        font-size: 28px !important;
+    }
+    .img-responsive{
+        width: 50% !important;
+    }
+
+   }
